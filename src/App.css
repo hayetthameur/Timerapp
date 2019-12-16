@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.timer {
+  border: 1px solid rgb(22, 21, 21);
+  border-radius: 32px;
+  width: 300px;
+  height: 500px;
+  margin-left: 467px;
+  margin-top: 30px;
+  background-color: rgb(22, 21, 21);
+  box-shadow: 4px 4px 16px 0px grey;
+}
+
+.timer h1 {
+  margin-top: 169px;
+  padding-left: 32px;
+}
+
+.timer h6 {
+  color: gray;
+  margin-left: 20px;
+  line-height: 2px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-left: -17px;
+}
+
+.rectangle {
+  border: 4px solid rgb(37, 37, 37);
+  height: 421px;
+  width: 229px;
+  margin-left: 34px;
+  margin-top: 41px;
+  background-image: url(https://vignette.wikia.nocookie.net/coding-designs/images/e/ec/Abstract-splashed-watercolor-textured-background_53876-8717.jpg/revision/latest?cb=20190807234028)
+}
+
+.timer-controls {
+  position: absolute;
+  top: 362px;
+  display: flex;
+  justify-content: center;
+  padding-left: 26px;
+}
+
+.timer-controls button {
+  margin-left: 14px;
+}
