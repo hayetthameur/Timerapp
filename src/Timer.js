@@ -57,10 +57,6 @@ class Timer extends Component {
 
 
     }
-        
-
-    
-
     render() {
         return (<div className="timer">
                 <div className="rectangle">
