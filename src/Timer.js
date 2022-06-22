@@ -30,8 +30,8 @@ class Timer extends Component {
             pause: false
  
         }
-        this.handleStop = this.handleStop.bind(this)  
-        this.handleStart = this.handleStart.bind(this); 
+        // this.handleStop = this.handleStop.bind(this)  
+        // this.handleStart = this.handleStart.bind(this); 
           
        
     }
@@ -52,10 +52,6 @@ class Timer extends Component {
                 second: this.state.second + 1
             });
         }, 1000);
-    
-    
-
-
     }
     render() {
         return (<div className="timer">
